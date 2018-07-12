@@ -1,0 +1,69 @@
+body{
+background-color: #deddcd;
+font:14px/21px Arial, helvetica, sans-serif;
+}
+
+/*#wrapper {
+width: 960px;
+margin: 40px auto;
+}*/
+
+#content .info {
+padding: 10px;
+}
+
+#movieposters {
+list-style: none;
+margin: 100px;
+height: 550px;
+}
+
+#movieposters li {
+display: inline;
+float: left;
+-webkit-perspective: 500;
+
+trznsition-duration: 0.5s;
+}
+
+#movieposters li img{
+border: 10px solid white;
+transform: rotateY (30deg);
+}
+
+#movieposters li:hover img {
+transform: rotateY (0deg);
+}
+.movieinfo{
+width: 200px;
+height: 180px;
+margin: -195px 0 0 55px;
+padding: 20px;
+border: 10px solid white;
+box-shadow: 3px 10px #888;
+background-color: #deddcd;
+position: absolute;
+transform: translateZ (30px) rotateY (30deg);
+}
+
+.movieinfo a {;
+background-color: #7a3f3a;
+padding: 5px 10px;
+text-decoration: none;
+color: #eee;
+border-radius: 5px;
+}
+
+
+img{
+border: 10px solid white;
+box-shadow: 3px 10px #888;
+}
+
+button {
+padding: 5px 10px;
+background-color: #6a191f;
+border-radius: 5px;
+font-size: 24px;
+color: white;
+}

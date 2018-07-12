@@ -1,0 +1,25 @@
+body{
+font-family: verdana;
+padding-top: 2%;
+padding-bottom: 5%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);}
+
+h1{
+
+}
+
+h2{
+color: red;
+}
+

@@ -1,0 +1,42 @@
+body{
+background-color: grey;
+font-size: 24px;
+}
+
+header,footer{
+background-color: yellow;
+border-radius: 7px;
+padding: 5px;
+margin: 4px;
+width: 98%;
+height: 150px;
+border: 1px solid;
+}
+
+.rows{
+display: flex;
+flex-flow: row;
+margin: 4px;
+}
+
+nav,aside{
+
+background-color: blue;
+border-radius: 7px;
+border: 1px solid;
+padding: 20px;
+margin: 4px;
+flex: 20%;
+min-height: 800px;
+}
+
+article{
+background-color: green;
+border-radius: 7px;
+border: 1px solid;
+padding: 20px;
+margin: 4px;
+flex: 60%;
+min-height: 800px;
+}
+

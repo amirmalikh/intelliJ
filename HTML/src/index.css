@@ -1,0 +1,32 @@
+
+h1{
+color: green
+}
+
+body{
+font-family: "tangerine";
+text-align: center;
+}
+p{text-align: center;}
+
+.mydiv {
+border: 1px solid red;
+width: 40%;
+height: 10%;
+margin-left: 20px;
+margin-top: 2%;
+padding: 2%;
+
+font-size: 25px;
+font-family: "arial black";
+font-weight: bold;
+
+}
+
+.largebutton {
+color= "red"
+
+}
+
+#hier {
+}

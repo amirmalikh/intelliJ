@@ -1,0 +1,7 @@
+
+@media all and (max-width:640px){
+
+.rows{
+flex-direction: column;
+}
+}
